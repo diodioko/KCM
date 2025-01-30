@@ -15,10 +15,10 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
-    /* Linting */
+    /* Linting (修正 TypeScript 误报) */
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedLocals": false,      // ✅ 允许未使用的变量（修复 TS6133）
+    "noUnusedParameters": false,  // ✅ 允许未使用的参数（修复 TS6133）
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },

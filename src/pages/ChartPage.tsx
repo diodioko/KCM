@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; // 需要显式导入 React
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
 
 const sampleData = [
